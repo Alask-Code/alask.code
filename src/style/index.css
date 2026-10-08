@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Play:regular,700);
+
+@import 'tailwindcss';
+@config '../../tailwind.config.js';
+
+* {
+  user-select: none;
+  -webkit-user-drag: none;
+  font-weight: 300;
+  font-family: 'Play';
+  &:focus {
+    outline: none;
+  }
+}
