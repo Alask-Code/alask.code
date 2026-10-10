@@ -16,7 +16,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: join(root, 'dist-vite'),
+    outDir: join(root, 'dist'),
     emptyOutDir: true,
     rollupOptions: { external: [''] }
   },
