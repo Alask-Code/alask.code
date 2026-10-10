@@ -7,6 +7,7 @@ export default function App() {
     <Router useTransitions>
       <Routes>
         <Route path="/" Component={Main} />
+        <Route path="/alask.code" Component={Main} />
       </Routes>
     </Router>
   );
