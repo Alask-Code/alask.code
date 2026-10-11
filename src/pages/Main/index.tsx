@@ -19,10 +19,10 @@ export default function Main() {
           <p>23 Years Old</p>
           <p>Paulinia - Brazil</p>
         </Header>
-        <TextBlock title="Who I am?" subtitle="I am a software developer.">
-          I build software with a focus on clean code, useful functionality, and meaningful user experiences. I enjoy
-          solving real-world problems through technology, learning new tools, and turning ideas into products that are
-          practical, reliable, and easy to use.
+        <TextBlock title="Who I am?" subtitle="I am an entry-level software developer.">
+          I am a junior developer looking to begin my career in technology and contribute to meaningful projects. I
+          build software with a focus on clean code, practical functionality, and user-friendly experiences. I enjoy
+          learning, solving real-world problems, and creating reliable solutions while growing alongside a team.
         </TextBlock>
         <TextBlock title="About Me" subtitle="Let me tell you a little about myself.">
           I am a curious and driven developer who enjoys building thoughtful solutions and continuously improving my

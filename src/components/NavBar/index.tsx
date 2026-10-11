@@ -25,7 +25,7 @@ export default function NavBar() {
         />
         <p>alask.code</p>
       </div>
-      <button
+      {/* <button
         onClick={() => setActiveLanguage(activeLanguage === 'PT' ? 'EN' : 'PT')}
         className="border border-white/20 p-1 rounded-lg cursor-pointer"
       >
@@ -33,7 +33,7 @@ export default function NavBar() {
           <ToggleButton activeLanguage={activeLanguage} language="PT" />
           <ToggleButton activeLanguage={activeLanguage} language="EN" />
         </div>
-      </button>
+      </button> */}
     </div>
   );
 }
