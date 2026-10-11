@@ -25,7 +25,7 @@ const projects: ProjectType[] = [
   {
     id: 'simple-clicker',
     title: 'Simple Clicker',
-    cover: 'https://placehold.co/1280x720',
+    cover: 'https://i.imgur.com/insrExW.jpeg',
     description: 'Simple Web game about Clicking.',
     projectUrl: 'https://alask-code.github.io/Simple-Clicker/',
 
@@ -36,7 +36,7 @@ const projects: ProjectType[] = [
   {
     id: 'mood-clock',
     title: 'Mood Clock',
-    cover: 'https://placehold.co/1280x720',
+    cover: 'https://i.imgur.com/DVIh1c2.jpeg',
     projectUrl: 'https://alask-code.github.io/Mood-Clock/',
     description:
       'Mood Clock is a web application that combines to-do list features, a Pomodoro timer, and a clock, helping with time management and productivity.',
@@ -47,7 +47,7 @@ const projects: ProjectType[] = [
   {
     id: 'simple-clock',
     title: 'Simple Clock',
-    cover: 'https://placehold.co/1280x720',
+    cover: 'https://i.imgur.com/XfMdqoz.jpeg',
     projectUrl: 'https://alask-code.github.io/Simple-Clock/',
     description: 'A Simple clock that shows you the time. Features auto theme switcher based on system definition.',
     createdAt: 0,
