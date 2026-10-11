@@ -6,6 +6,7 @@ export interface ProjectType {
   cover: string;
   description: string;
   createdAt: number;
+  projectUrl: string;
   lastUpdatedAt: number;
   stack: IconType[];
 }

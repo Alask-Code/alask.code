@@ -57,24 +57,26 @@ export default function ProjectBrowser({ projects }: { projects: ProjectType[] }
       <p className="text-xl text-stone-500">Some of my work.</p>
       <div className="pt-4 grid gap-3 grid-cols-2 max-md:grid-cols-1">
         {projects.map((project) => (
-          <div key={project.id} className="w-full border border-white/20 overflow-hidden bg-white/10">
+          <div key={project.id} className="w-full h-full flex flex-col border border-white/20 bg-white/10">
             <img src={project.cover} className="w-full aspect-video border-b border-white/20" alt="" />
-            <div className="p-3 pt-2">
-              <p className="text-xl font-bold">{project.title}</p>
-              <p className="text-xs text-stone-500">{project.description}</p>
-              <div className="flex py-2 gap-2">
-                {project.stack.map((Tech) => (
-                  <Tech />
-                ))}
+            <div className="h-full flex flex-col items-start justify-between">
+              <div className="pt-3 px-2">
+                <p className="text-xl font-bold">{project.title}</p>
+                <p className="text-xs text-stone-500">{project.description}</p>
+                <div className="flex py-4 gap-2">
+                  {project.stack.map((Tech) => (
+                    <Tech />
+                  ))}
+                </div>
+                <p className="text-xs flex items-center gap-1">
+                  <MdDateRange /> {formatTimestamp(project.createdAt)}
+                </p>
+                <p className="text-xs flex items-center gap-1">
+                  <MdUpdate /> {formatRelativeTime(project.lastUpdatedAt)}
+                </p>
               </div>
-              <p className="text-xs flex items-center gap-1">
-                <MdDateRange /> {formatTimestamp(project.createdAt)}
-              </p>
-              <p className="text-xs flex items-center gap-1">
-                <MdUpdate /> {formatRelativeTime(project.lastUpdatedAt)}
-              </p>
-              <p className="w-full underline text-right">
-                <a href="https://github.com/Outland-s-Edge" target="_blank" rel="noreferrer">
+              <p className=" w-full text-right underline p-2 pt-6 pb-3 h-fit">
+                <a href={project.projectUrl} target="_blank" rel="noreferrer">
                   Learn More
                 </a>
               </p>
