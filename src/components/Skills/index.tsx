@@ -22,7 +22,7 @@ export default function Skills({ skills, label, subtitle }: { skills: SkillType[
             onClick={() => {
               window.open(link);
             }}
-            className="bg-white/10 text-5xl p-2"
+            className="bg-white/10 text-5xl border border-white/20 p-2"
           />
         ))}
       </div>
