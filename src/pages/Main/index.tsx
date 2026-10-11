@@ -8,6 +8,7 @@ import Skills from '../../components/Skills';
 
 import NavBar from '../../components/NavBar';
 import { skills } from './skills';
+import projects from '../../components/ProjectBrowser/projects';
 
 export default function Main() {
   return (
@@ -30,7 +31,7 @@ export default function Main() {
           practical ways.
         </TextBlock>
         <Skills label="Skills" subtitle="Some technologies I've worked with." skills={skills} />
-        <ProjectBrowser />
+        <ProjectBrowser projects={projects} />
       </A4FormatDiv>
     </SafeView>
   );

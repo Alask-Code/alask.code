@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SkillType } from '../../types/SkillType';
 
 export default function Skills({ skills, label, subtitle }: { skills: SkillType[]; label: string; subtitle: string }) {
-  const [tooltip, setTooltip] = React.useState<{
+  const [tooltip, setTooltip] = useState<{
     label: string;
     x: number;
     y: number;

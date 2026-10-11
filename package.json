@@ -1,20 +1,8 @@
 {
   "license": "MIT",
   "author": "Alask-Code",
-  "name": "outlands-game-engine",
-  "version": "0.0.117-pre-alpha",
-  "productName": "Outlands`s Edge Game Engine",
-  "description": "2.5D Game Engine custom built for Outlands`s Edge.",
-  "build": {
-    "asar": true,
-    "files": [
-      "dist-electron",
-      "dist-vite"
-    ],
-    "directories": {
-      "buildResources": "resources"
-    }
-  },
+  "name": "alask.code",
+  "version": "1.0.1",
   "scripts": {
     "start": "vite",
     "build": "vite build",
